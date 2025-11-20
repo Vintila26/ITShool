@@ -37,6 +37,6 @@ public class Main {
         int sub = numar1 / numar2;
         System.out.println(sub);
 
-
+// modificare
     }
 }
