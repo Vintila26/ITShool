@@ -9,7 +9,7 @@ import java.util.Random;
 public class UtilsExampels {
     public static void main(String[] args) {
 //        localDateExampels();
-//        localDateTimeExampels();
+//       localDateTimeExampels();
 //        rendomExampels();
 //        mathExampels();
         durationExampels();
@@ -27,7 +27,7 @@ public class UtilsExampels {
 
 //        String format = "2025-12-09";
 //        DateTimeFormatter formater = DateTimeFormatter.ofPattern("DD-MM-YYYY");
-//        LocalDate date = LocalDate.parse(format, formater);
+//       LocalDate date = LocalDate.parse(format, formater);
 //        System.out.println(date);
 
 
@@ -42,7 +42,7 @@ public class UtilsExampels {
 
 //        String dateTimeString = "2025-12-09 19:57";
 //        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm");
-//        LocalDateTime secDateTime = LocalDateTime.parse(dateTimeString,formatter);
+//       LocalDateTime secDateTime = LocalDateTime.parse(dateTimeString,formatter);
 //        System.out.println(secDateTime);
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH-mm");
         System.out.println(today.format(formatter));
