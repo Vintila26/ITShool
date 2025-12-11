@@ -78,7 +78,7 @@ public class StringExampels {
         String str5 = "  Hello  ";
         System.out.println("trin str5: " +str5.trim());
 
-
+//
 
     }
 
